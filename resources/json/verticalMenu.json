@@ -1,0 +1,221 @@
+{
+  "menu": [
+    {
+      "url": "/admin",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo",
+      
+      "tagcustom": "badge pill orange float-right mr-10"
+    },
+    
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+    
+    {
+      "navheader": "Pages ",
+      "icon": "more_horiz"
+    },
+    
+    {
+      "url": "javascript:void(0)",
+      "name": "User_Company",
+      "i18n": "User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "face",
+      "tag": "3",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "admin/users-list",
+          "name": "List",
+          "i18n": "List",
+          "slug": "users-list"
+        }
+      ]
+    },
+    {
+      "for" :["admin"], 
+      "url": "javascript:void(0)",
+      "name": "Patner",
+      "i18n": "Patner",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Patner",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "for" :["admin"], 
+          "url": "admin/patner-list",
+          "name": "List",
+          "i18n": "List",
+          "slug": "admin/patner-list"
+        },
+        {
+          "for" :["admin"], 
+          "url": "admin/patner-add",
+          "name": "Add",
+          "i18n": "Add",
+          "slug": "admin/patner-add"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin"], 
+      "url": "javascript:void(0)",
+      "name": "Profile Type",
+      "i18n": "Profile Type",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Profile Type",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "for" :["admin"], 
+          "url": "admin/profile-type",
+          "name": "List",
+          "i18n": "List",
+          "slug": "admin/profile-type"
+        },
+        {
+          "for" :["admin"], 
+          "url": "admin/profile-type/create",
+          "name": "Add",
+          "i18n": "Add",
+          "slug": "admin/profile-type/create"
+        }
+      ]
+    },
+
+    
+    {
+      "for" :["admin"], 
+      "url": "javascript:void(0)",
+      "name": "MemberShip",
+      "i18n": "MemberShip",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "MemberShip",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "for" :["admin"], 
+          "url": "admin/membership-type",
+          "name": "List",
+          "i18n": "List",
+          "slug": "admin/membership-type"
+        },
+        {
+          "for" :["admin"], 
+          "url": "admin/membership-type/create",
+          "name": "Add",
+          "i18n": "Add",
+          "slug": "admin/membership-type/create"
+        }
+      ]
+    },
+
+     {
+      "for" :["admin"], 
+      "url": "javascript:void(0)",
+      "name": "Position",
+      "i18n": "Position",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Position",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "for" :["admin"], 
+          "url": "admin/position",
+          "name": "List",
+          "i18n": "List",
+          "slug": "admin/position"
+        },
+        {
+          "for" :["admin"], 
+          "url": "admin/position/create",
+          "name": "Add",
+          "i18n": "Add",
+          "slug": "admin/position/create"
+        }
+      ]
+    },
+
+     {
+      "for" :["admin"], 
+      "url": "javascript:void(0)",
+      "name": "Industry",
+      "i18n": "Industry",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Industry",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "for" :["admin"], 
+          "url": "admin/industry",
+          "name": "List",
+          "i18n": "List",
+          "slug": "admin/industry"
+        },
+        {
+          "for" :["admin"], 
+          "url": "admin/industry/create",
+          "name": "Add",
+          "i18n": "Add",
+          "slug": "admin/industry/create"
+        }
+      ]
+    },
+    
+     {
+      "url": "admin/social/",
+      "name": "Social Links",
+      "i18n": "Social Links",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Social Links",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10"
+     
+    },
+
+     {
+      "url": "admin/member-plan/",
+      "name": "Member Plan",
+      "i18n": "Member Plan",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Member Plan",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10"
+     
+    },
+
+    {
+      "url": "admin/admin-group-list/",
+      "name": "Group List",
+      "i18n": "Group List",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Group List",
+      "icon": "person_outline",
+      "tagcustom": "badge pill purple float-right mr-10"
+     
+    },
+
+
+
+    {
+      "url": "admin/logout",
+      "name": "Logout",
+      "i18n": "Logout",
+      "class": "waves-effect waves-cyan",
+      "icon": "keyboard_tab"
+    }
+  ]
+}
